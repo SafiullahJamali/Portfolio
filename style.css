@@ -1,0 +1,206 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+
+
+ }
+   
+ .logo{
+
+
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+
+ }
+ .Nav a{
+        
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 90px;
+
+
+ } 
+
+ .Nav a:hover{
+
+        color: orange;
+
+ }
+ .btn-talk{
+
+        color: white;
+        background-color: orange;
+        padding: 7px;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 3s;
+ }
+.btn-talk:hover {
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+
+  }
+ 
+  .Home{ 
+   
+    position: fixed;
+    left: 680px;
+    width: 100%;
+    height: 800vh;
+    background: url(imges.png) no-repeat;
+    
+    margin-top: 120px;
+   
+    
+  } 
+
+  .Other-data{
+
+         position: fixed;
+         top: 50%;
+         left: 7%;
+         
+              
+
+  }
+.Other-data h2{
+
+            font-size: 40px;
+            margin-bottom: 5px;
+
+} 
+.Other-data span{
+
+      color: orange;
+
+}
+
+.span-data h4{
+
+         font-size: 30px;
+         margin-top: 10px;
+
+}
+.btn-other{
+
+       position: fixed;
+       top: 80%;
+       left: 7%;
+       
+}
+.btn-other #me{
+
+       padding: 10px;
+       color: white;
+       background: orange;
+       border-radius: 3px;
+       border: 2px solid orange;
+       margin-right: 20px;
+       width: 100px;
+       transition: 3s;
+       font-size: 15px;
+       font-weight: bold;
+
+}
+#see {
+
+      
+       padding: 10px;
+       color: orange;
+       background-color: white;
+       border-radius: 3px;
+       border: 2px solid orange;
+       width: 100px;
+       transition: 3s;
+       font-size: 15px;
+}
+#me:hover{
+
+       background-color: white;
+       color: orange;
+
+}
+#see:hover{
+
+
+       background-color: orange;
+       color: white;
+}
+
+
+
+.madia-link{
+
+     display: flex;
+     padding-top: 45%;
+       margin-left: 90px;
+       color: white;
+      
+
+}
+
+.madia-link #fb{
+
+
+       color: white;
+       background-color: blue;
+       font-size: 20px;
+       padding: 3px;
+       border-radius: 50%;
+       border: 3px solid blue;
+       align-items: center;
+       margin:  0px 15px;
+       width: 34px;
+       height: 34px;
+}
+
+.madia-link  #twitter {
+
+
+       width: 34px;
+       height: 34px;
+       color: white;
+       background-color: lightblue;
+       font-size: 20px;
+       padding: 10px;
+       border-radius: 50%;
+       align-items: center;
+       margin:  0px 15px;
+}
+
+.madia-link  #yt{
+
+       width: 34px;
+       height: 34px;
+       color: white;
+       background-color: red;
+        font-size: 20px;
+       padding: 7px;
+       border-radius: 50%;
+       align-items: center;
+      margin:  0px 15px;
+}  
+
+
+
